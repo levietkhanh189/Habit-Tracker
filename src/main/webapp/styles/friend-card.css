@@ -1,0 +1,66 @@
+.mask-icon13 {
+  position: relative;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.description19,
+.title45 {
+  align-self: stretch;
+  position: relative;
+}
+.title45 {
+  line-height: 20px;
+  font-weight: 500;
+}
+.description19 {
+  font-size: var(--body-alternative-book-size);
+  line-height: 16px;
+  color: var(--primary-black-black-40);
+}
+.text27 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconstrash-can {
+  position: relative;
+  border-radius: var(--br-base);
+  width: 23.8px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.add-button1,
+.friend-card {
+  background-color: var(--primary-base-white);
+  border: 1px solid var(--primary-black-black-10);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.add-button1 {
+  cursor: pointer;
+  padding: var(--padding-9xs);
+  border-radius: var(--br-xs);
+  width: 36px;
+  height: 36px;
+  justify-content: center;
+}
+.friend-card {
+  position: relative;
+  border-radius: var(--br-base);
+  box-shadow: var(--shadows-box-shadow);
+  width: 100%;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--body-paragraph-medium-size);
+  color: var(--primary-black-black-100);
+  font-family: var(--headline-h5-bold);
+}

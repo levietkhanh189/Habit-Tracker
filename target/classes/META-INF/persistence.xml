@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+    <persistence-unit name="default">
+
+        <class>model.entity.Account</class>
+        <class>model.entity.MyUser</class>
+        <class>model.entity.Connect</class>
+        <class>model.entity.Challenge</class>
+        <class>model.entity.Habit</class>
+        <class>model.entity.Reminder</class>
+        <class>model.entity.HabitTracker</class>
+        <class>model.entity.MoodTracker</class>
+        <class>model.entity.Activity</class>
+        <class>model.entity.ConnectInfo</class>
+
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://ep-soft-dew-70723831.ap-southeast-1.aws.neon.tech/habitDB?user=levietkhanh189&amp;password=fExL4eSHd3FB&amp;sslmode=require" />
+            <property name="jakarta.persistence.jdbc.user" value="levietkhanh189"/>
+            <property name="jakarta.persistence.jdbc.password" value="fExL4eSHd3FB"/>
+            <property name="jakarta.persistence.schema-generation.database.action" value="create"/>
+        </properties>
+    </persistence-unit>
+</persistence>

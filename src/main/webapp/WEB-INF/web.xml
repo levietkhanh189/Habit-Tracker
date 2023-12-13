@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    <servlet>
+        <servlet-name>ChangePageServlet</servlet-name>
+        <servlet-class>controller.ChangePageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ChangePageServlet</servlet-name>
+        <url-pattern>/changepage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>controller.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateAccountServlet</servlet-name>
+        <servlet-class>controller.CreateAccountServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CreateAccountServlet</servlet-name>
+        <url-pattern>/createaccount</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserInfoServlet</servlet-name>
+        <servlet-class>controller.UserInfoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserInfoServlet</servlet-name>
+        <url-pattern>/userinfo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HabitTrackerServlet</servlet-name>
+        <servlet-class>controller.HabitTrackerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HabitTrackerServlet</servlet-name>
+        <url-pattern>/habittracker</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HistoryDateServlet</servlet-name>
+        <servlet-class>controller.HistoryDateServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HistoryDateServlet</servlet-name>
+        <url-pattern>/historydate</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateHabitServlet</servlet-name>
+        <servlet-class>controller.CreateHabitServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CreateHabitServlet</servlet-name>
+        <url-pattern>/createhabit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AppBarServlet</servlet-name>
+        <servlet-class>controller.AppBarServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AppBarServlet</servlet-name>
+        <url-pattern>/appbar</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>DetailChallengeServlet</servlet-name>
+        <servlet-class>controller.DetailChallengeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DetailChallengeServlet</servlet-name>
+        <url-pattern>/detailchallenge</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>JoinChallengeServlet</servlet-name>
+        <servlet-class>controller.JoinChallengeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>JoinChallengeServlet</servlet-name>
+        <url-pattern>/joinchallenge</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ChangePasswordServlet</servlet-name>
+        <servlet-class>controller.ChangePasswordServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ChangePasswordServlet</servlet-name>
+        <url-pattern>/changepassword</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ForgotPasswordServlet</servlet-name>
+        <servlet-class>controller.ForgotPasswordServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ForgotPasswordServlet</servlet-name>
+        <url-pattern>/forgotpassword</url-pattern>
+    </servlet-mapping>
+    <context-param>
+        <param-name>sender</param-name>
+        <param-value>21110206@student.hcmute.edu.vn</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>Cubi@2705</param-value>
+    </context-param>
+
+</web-app>

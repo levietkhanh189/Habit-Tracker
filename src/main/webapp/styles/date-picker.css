@@ -1,0 +1,33 @@
+.sports,
+.sports1 {
+  align-self: stretch;
+  position: relative;
+  background: linear-gradient(135deg, #6b73ff, #000dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sports {
+  line-height: 24px;
+  font-weight: 500;
+}
+.sports1 {
+  font-size: var(--body-chip-bold-size);
+  letter-spacing: 1px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.date-picker {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--primary-base-white);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  font-family: var(--body-title-medium);
+}

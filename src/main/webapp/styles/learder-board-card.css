@@ -1,0 +1,99 @@
+.circle-loader-child,
+.circle-loader-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 2px solid var(--primary-black-black-10);
+  box-sizing: border-box;
+  width: 36px;
+  height: 36px;
+}
+.circle-loader-item {
+  border: 2px solid var(--primary-blue-blue-100);
+}
+.div {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 10px);
+  line-height: 16px;
+  font-weight: 900;
+}
+.circle-loader {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  z-index: 0;
+}
+.emoji {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 10px);
+  left: calc(50% - 5px);
+  font-size: var(--body-paragraph-medium-size);
+  line-height: 20px;
+  font-weight: 900;
+  color: var(--primary-black-black-100);
+  z-index: 1;
+}
+.icon3 {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.description3,
+.title4 {
+  align-self: stretch;
+  position: relative;
+}
+.title4 {
+  line-height: 20px;
+  font-weight: 500;
+}
+.description3 {
+  font-size: var(--body-alternative-book-size);
+  line-height: 16px;
+  color: var(--primary-black-black-40);
+}
+.text2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--body-paragraph-medium-size);
+  color: var(--primary-black-black-100);
+}
+.avatar-1-icon {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+.friends,
+.learderboard-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.learderboard-card {
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--primary-base-white);
+  box-shadow: var(--shadows-box-shadow);
+  border: 1px solid var(--primary-black-black-10);
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+  padding: var(--padding-base);
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--body-alternative-book-size);
+  color: var(--primary-base-white);
+  font-family: var(--headline-h5-bold);
+}

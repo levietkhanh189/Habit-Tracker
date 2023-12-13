@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --headline-h5-bold: Poppins;
+
+  /* font sizes */
+  --body-alternative-book-size: 12px;
+  --body-paragraph-medium-size: 14px;
+  --headline-h2-bold-size: 40px;
+  --body-title-medium-size: 18px;
+  --body-chip-bold-size: 10px;
+  --headline-h5-bold-size: 24px;
+  --headline-h1-bold-size: 48px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --primary-blue-blue-40: #afb4ff;
+  --primary-base-white: #fff;
+  --primary-black-black-100: #040415;
+  --primary-blue-blue-10: #ebecff;
+  --primary-blue-blue-20: #d7d9ff;
+  --secondary-dark-blue-dark-blue-10: #f3f4f6;
+  --primary-black-black-10: #eaecf0;
+  --primary-black-black-40: #9b9ba1;
+  --primary-orange-warning-orange-10: #fff3da;
+  --primary-red-error-red-100: #e3524f;
+  --primary-blue-blue-100: #3843ff;
+  --primary-base-background: #f7f9ff;
+  --color-ghostwhite-100: #f6f9ff;
+  --primary-orange-warning-orange-60: #ffc148;
+  --primary-orange-warning-orange-100: #fea800;
+  --primary-black-black-20: #cdcdd0;
+  --primary-green-success-green-100: #3ba935;
+  --primary-black-black-60: #686873;
+  --primary-blue-info-blue-10: #ddf2fc;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-xs: 12px;
+  --gap-9xs: 4px;
+  --gap-5xs: 8px;
+  --gap-21xl: 40px;
+  --gap-5xl: 24px;
+  --gap-3xs: 10px;
+  --gap-120xl: 139px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-xl: 20px;
+  --padding-9xs: 4px;
+  --padding-xs: 12px;
+  --padding-21xl: 40px;
+  --padding-10xl: 29px;
+  --padding-11xs: 2px;
+  --padding-7xs: 6px;
+  --padding-33xl: 52px;
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+  --br-base: 16px;
+  --br-5xl: 24px;
+  --br-xs: 12px;
+  --br-5xs: 8px;
+  --br-61xl: 80px;
+  --br-25xl: 44px;
+  --br-37xl: 56px;
+  --br-45xl: 64px;
+
+  /* Effects */
+  --shadows-medium-shadow: 0px 12px 24px rgba(34, 44, 93, 0.06);
+  --shadows-box-shadow: 58px 26px 68px rgba(34, 44, 93, 0.06);
+}

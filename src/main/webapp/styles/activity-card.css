@@ -1,0 +1,69 @@
+.description2,
+.title3 {
+  align-self: stretch;
+  position: relative;
+}
+.title3 {
+  line-height: 20px;
+  font-weight: 500;
+}
+.description2 {
+  font-size: var(--body-alternative-book-size);
+  line-height: 16px;
+  color: var(--primary-black-black-40);
+}
+.text1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconsarrow-up-3 {
+  position: relative;
+  border-radius: var(--br-base);
+  width: 23.8px;
+  height: 24px;
+  z-index: 0;
+}
+.dot {
+  position: absolute;
+  margin: 0 !important;
+  top: 8px;
+  right: 8.1px;
+  border-radius: 50%;
+  background-color: var(--primary-red-error-red-100);
+  width: 7.9px;
+  height: 8px;
+  display: none;
+  z-index: 1;
+}
+.activity-card,
+.add-button {
+  position: relative;
+  background-color: var(--primary-base-white);
+  border: 1px solid var(--primary-black-black-10);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.add-button {
+  border-radius: var(--br-xs);
+  width: 36px;
+  height: 36px;
+  justify-content: center;
+  padding: var(--padding-9xs);
+}
+.activity-card {
+  border-radius: var(--br-base);
+  box-shadow: var(--shadows-box-shadow);
+  width: 100%;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--body-paragraph-medium-size);
+  color: var(--primary-black-black-100);
+  font-family: var(--headline-h5-bold);
+}
